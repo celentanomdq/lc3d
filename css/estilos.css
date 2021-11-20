@@ -1,0 +1,117 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color:#005f73 ;
+    font-family: 'Roboto', sans-serif;
+    height: 760px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    color:#f8edeb ;
+    font-size: 4rem;
+    margin: 30px;
+    padding: 50px;
+    text-align: center;  
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+}
+.headerflex{
+    display: flex;
+    justify-content:space-between;
+   
+
+}
+.logo{
+   border-radius: 20px;
+   margin-left: 80px;
+   margin-top: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 90px;
+
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    color:#f8edeb;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.imagenimoresora{
+    width:100%;
+}
+ 
+p{
+    color:#f8edeb;
+    font-size: 2rem;
+    padding: 50px;
+    margin: 0;
+    
+}
+footer{
+    
+    background-color: #999;
+    height: 40px;
+    width: 100%;
+    clear: both;
+}
+.footer{
+    font-size: 1.6rem;
+    line-height: 40px;
+    color:#f8edeb;
+   display: inline-block;
+   margin:0;
+   padding: 0;
+   position: relative;
+   left:10px
+    
+}
+
+/*nosotros*/
+section{
+margin-bottom: 50px;
+}
+/*contactos*/
+.contactos{
+    margin-top: 20px;
+}
+.legend{
+    font-size: 1.6rem;
+    color:#f8edeb;
+    margin-bottom: 20px;
+}
+.name{
+    display: block;
+    margin-bottom: 20px;
+    border: solid 3px #000;
+    
+}
+.email{
+    display: block;
+    border: solid 3px #000;
+    margin-bottom: 20px;
+}
+.button{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #000;
+}    
+
+
+
