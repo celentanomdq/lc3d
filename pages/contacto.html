@@ -15,36 +15,51 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
-<body>
-    <header class="header">
-        <nav> <a href="../index.html"><img src="../images/logo.jpg" alt="lc3d"></a>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="modelado.html">Modelado</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+<body class="contactobody">
+    <video class="videoheader" src="../videos/lc3dvideo.mp4" autoplay loop muted></video>
 
-        </nav>
+    <header class="header">
+        <a href="../index.html"><img src="../images/logo.jpg" alt="lc3d" class="logo"></a>
 
     </header>
-    <section class="contactos">
-        <legend class="legend">Contactanos</legend> 
 
-        <form action="/" metod="post">
-            <input id="Nombre" type="text" placeholder="Nombre y Apellido" class="name"> 
-            <input type="Email" name="Mail" id="Mail" placeholder="Ingrese su email" class="email">
-            <legend class="legend">Comentarios</legend>
-            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
-            <input type="submit" value="Enviar" class="button">
-        </form>
+    <section class="contacto">
 
+        <div class="formularioflex">
+            <form class="form" action="/" metod="post">
+                <div class="form__section">
+                    <input id="Nombre" type="text" placeholder="Nombre y Apellido" class="form__input">
+                </div>
+                <div class="form__section">
+                    <input type="Email" name="Mail" id="Mail" placeholder="Ingrese su email" class="form__input">
+                </div>
+                <div class="form__section">
+                    <textarea name="" id="" cols="30" rows="10" class="form__input"></textarea>
+                </div>
+                <div class="form__section">
+                    <input type="submit"class="form__input" >
+                </div>
+            </form>
+            <div class="form-img">
+                <div class="img-container">
+                    <div>
+                    <img src="/images/correo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
 
+        <footer class="footercontactos">
+            <div class="footeritem1">
+                <p> 2021 LC3D. Todos los derechos reservados.</p>
+            </div>
+            <div class="footeritem2"> <img src="/images/instagram.svg" alt=""> </div>
+            <div class="footeritem3"><img src="/images/linkedin.svg" alt=""> </div>
+        </footer>
+        </div>
     </section>
-    <footer>
-        <p class="footer">seguinos en nuestras redes sociales. todos los derechos reservados.</p>
-    </footer>
+
 </body>
 
 </html>
