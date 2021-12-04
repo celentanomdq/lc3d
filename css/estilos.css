@@ -84,6 +84,9 @@ a{
     flex-direction: row;
     border-radius: 3px;
 }
+.bootstrap{
+    padding: 40px;
+}
 .carditem1{
     width: 350px;
     height: 350px;
